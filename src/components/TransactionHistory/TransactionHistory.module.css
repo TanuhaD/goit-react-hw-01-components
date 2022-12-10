@@ -1,0 +1,43 @@
+.table {
+  width: 400px;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0 auto;
+}
+
+.thead {
+  background-color: #d500ca;
+  border: 1px solid grey;
+  color: white;
+}
+
+.thead th {
+  padding: 10px;
+}
+
+.thead th:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.tbody {
+  text-align: center;
+  border: 1px solid grey;
+}
+.tbody tr:nth-child(odd) {
+  background-color: #ff33cc30;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+.row {
+  border: 1px solid grey;
+}
+.td {
+  padding: 10px;
+  border: 1px solid grey;
+}
+.tdType {
+  padding: 10px;
+  text-transform: capitalize;
+}
